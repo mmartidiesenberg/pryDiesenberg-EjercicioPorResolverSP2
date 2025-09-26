@@ -16,5 +16,10 @@ namespace pryDiesenberg_EjercicioPorResolverSP2
         {
             InitializeComponent();
         }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }

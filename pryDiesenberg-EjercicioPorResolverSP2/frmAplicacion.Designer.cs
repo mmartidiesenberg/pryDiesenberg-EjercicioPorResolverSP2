@@ -86,6 +86,7 @@
             // 
             this.lblCalcular.AutoSize = true;
             this.lblCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCalcular.ForeColor = System.Drawing.Color.LightCoral;
             this.lblCalcular.Location = new System.Drawing.Point(27, 20);
             this.lblCalcular.Name = "lblCalcular";
             this.lblCalcular.Size = new System.Drawing.Size(292, 24);

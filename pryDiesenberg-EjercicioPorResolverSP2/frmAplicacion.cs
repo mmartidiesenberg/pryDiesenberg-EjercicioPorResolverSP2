@@ -21,7 +21,7 @@ namespace pryDiesenberg_EjercicioPorResolverSP2
         
         private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
-
+            //
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)

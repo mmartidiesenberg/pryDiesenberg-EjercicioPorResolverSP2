@@ -1,6 +1,6 @@
 ﻿namespace pryDiesenberg_EjercicioPorResolverSP2
 {
-    partial class Form1
+    partial class frmAplicacion
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,10 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // frmAplicacion
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Name = "frmAplicacion";
+            this.Text = "Aplicación Ferro";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

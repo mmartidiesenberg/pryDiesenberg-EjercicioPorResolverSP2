@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pryDiesenberg_EjercicioPorResolverSP2
 {
-    public partial class Form1 : Form
+    public partial class frmAplicacion : Form
     {
-        public Form1()
+        public frmAplicacion()
         {
             InitializeComponent();
         }

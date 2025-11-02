@@ -138,8 +138,10 @@
             this.Controls.Add(this.mskDistancia);
             this.Controls.Add(this.lblCant);
             this.Controls.Add(this.lblDistancia);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmAplicacion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Aplicación Ferro";
             this.Load += new System.EventHandler(this.frmAplicacion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtDias)).EndInit();
